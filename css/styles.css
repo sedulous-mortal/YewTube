@@ -1,0 +1,53 @@
+body {
+    font-family: monospace;
+    background-color: black;
+    text-align: center;
+}
+
+#main {
+    margin-top: 20%;
+}
+
+.submitStuff {
+    margin-bottom: 2%;
+}
+
+#userInput {
+    font-size: 20px;
+    padding: 3px;
+}
+
+button {
+    font-size: 20px;
+    padding: 3px;
+}
+
+
+/*hover is broken*/
+
+a:hover {
+    border: 5px white;
+}
+
+img {
+    margin: 2%;
+}
+
+#description {
+    font-size: 18px;
+    color: teal;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#what {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 18px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: fuchsia;
+}

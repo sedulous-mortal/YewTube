@@ -26,6 +26,17 @@ function renderData(results) {
         //no linking to youtube
         //$('#result').append("<img src='" + results.items[i].snippet.thumbnails.medium.url + "'>");
         //linking to youtube
-        $('#result').append("<a href='" + "https://youtube.com/watch?v=" + results.items[i].id.videoId + "'><img src='" + results.items[i].snippet.thumbnails.medium.url + "'>" + "</a>");
+        $('#result').append("<a href='" + "https://youtube.com/watch?v=" + results.items[i].id.videoId +
+            "'><img src='" + results.items[i].snippet.thumbnails.medium.url + "'>" + "</a>");
     }
 }
+//TODO: make this section appear as an overlay like in hot or cold
+//onclick handler for "?"
+/*$('#what').onclick{
+<div id="description">
+<p>Built using the YouTube API, this tool is meant to emulate the basic functions of YouTube.</p>
+    <p> This was an assignemnt at Thinkful, an online coding bootcamp. </p>
+        <p>This instance of the assignment was completed by Alison Stuart in Fall of 2016.</p>
+            </div>
+
+}*/
