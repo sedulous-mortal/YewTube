@@ -5,49 +5,32 @@ body {
 }
 
 #main {
-    margin-top: 20%;
+    margin-top: 5vh;
 }
 
 .submitStuff {
-    margin-bottom: 2%;
+    margin-bottom: 2vh;
 }
 
 #userInput {
-    font-size: 20px;
-    padding: 3px;
+    font-size: 3vh;
+    padding: 1vh;
+}
+
+img{
+    height: 10vh;
 }
 
 button {
-    font-size: 20px;
-    padding: 3px;
-}
-
-
-/*hover is broken*/
-
-a:hover {
-    border: 5px white;
-}
-
-img {
-    margin: 2%;
-}
-
-#description {
-    font-size: 18px;
-    color: teal;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-
-#what {
-    text-align: left;
-    margin-top: 0px;
-    font-size: 18px;
-    color: white;
+    font-size: 3vh;
+    padding: 1vh;
 }
 
 h1 {
-    font-size: 40px;
-    color: fuchsia;
+    font-size: 9vh;
+    color: lightgreen;
+}
+
+img {
+    margin: 2vh 10vh;
 }
